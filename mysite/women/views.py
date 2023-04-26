@@ -22,13 +22,13 @@ def about(request):
     return render(request, 'women/about.html', {'title': 'Страница о сайте'})
 
 def addpage(request):
-    return HttpResponse("Add page")
+    return HttpResponse("See soon")
 
 def contact(request):
-    return HttpResponse("Contact")
+    return HttpResponse("See soon")
 
 def login(request):
-    return HttpResponse("Login")
+    return HttpResponse("See soon")
 
 def post_detail(request, post_id):
     return HttpResponse(f"Post number {post_id}")
